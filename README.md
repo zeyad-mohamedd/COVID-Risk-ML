@@ -1,4 +1,4 @@
-# COVID-Risk-ML  🌍🦠
+# COVID-Risk-ML 🦠
 
 ## 📜 Project Description
 This project leverages machine learning algorithms to predict the risk levels of countries during the COVID-19 pandemic. By analyzing critical data such as deaths, confirmed cases, and recoveries, the model classifies countries into risk categories to support informed decision-making.
@@ -7,34 +7,37 @@ This project leverages machine learning algorithms to predict the risk levels of
 
 ## 📝 Project Structure
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <pre>
 COVID-Risk-ML/
+├── data/
+│   └── dataset.csv
+├── src/
+│   ├── __init__.py
+│   ├── data_processing.py
+│   ├── model_training.py
+│   ├── model_evaluation.py
+│   └── main.py
+├── models/
+│   └── model.pkl
+├── notebooks/
+│   └── exploration.ipynb
+├── tests/
+│   └── test_main.py
+├── requirements.txt
+├── README.md
+└── LICENSE
+    </pre>
+</body>
+</html>
 
-│
-├── data/                       
-│   ├── raw/                    
-│   ├── processed/              
-│   └── dataset.csv             
-│
-├── src/                        
-│   ├── __init__.py             
-│   ├── data_processing.py      
-│   ├── model_training.py       
-│   ├── model_evaluation.py     
-│   └── main.py                 
-│
-├── models/                     
-│   └── model.pkl               
-│
-├── notebooks/                  
-│   └── exploration.ipynb       
-│
-├── tests/                      
-│   └── test_main.py            
-│
-├── requirements.txt            
-├── README.md                   
-├── LICENSE                     
-└── .gitignore                  
+      
                         
 ---
 
