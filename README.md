@@ -5,6 +5,39 @@ This project leverages machine learning algorithms to predict the risk levels of
 
 ---
 
+## 📝 Project Structure
+
+COVID-Risk-ML/
+
+│
+├── data/                       
+│   ├── raw/                    
+│   ├── processed/              
+│   └── dataset.csv             
+│
+├── src/                        
+│   ├── __init__.py             
+│   ├── data_processing.py      
+│   ├── model_training.py       
+│   ├── model_evaluation.py     
+│   └── main.py                 
+│
+├── models/                     
+│   └── model.pkl               
+│
+├── notebooks/                  
+│   └── exploration.ipynb       
+│
+├── tests/                      
+│   └── test_main.py            
+│
+├── requirements.txt            
+├── README.md                   
+├── LICENSE                     
+└── .gitignore                  
+                        
+---
+
 ## 📂 Features 
 - Predicts risk levels of countries based on COVID-19 data.
 - Utilizes a variety of machine learning algorithms:
